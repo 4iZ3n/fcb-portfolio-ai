@@ -1,0 +1,77 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+#profile {
+	height: 183px;
+	width: 275px;
+}
+
+#landing {
+	/*vh is viewport height - measurement in percentage of total height of media*/
+	height: 80vh;
+
+	/*arranges all elements in horizontal manner*/
+	display: flex;
+
+	/*directs the elements inside "display" */
+	flex-direction: column;
+
+	/*aligns elemets in  center vertically*/
+	align-items: center;
+
+	/**/
+	justify-content: center;
+}
+
+.jumbotron {
+	background-color: #ADD8E6;
+
+	border-radius: 20px;
+}
+
+#gallery {
+	display: flex;
+
+	flex-direction: column;
+
+	align-items: center;
+
+	justify-content: center;
+
+	height: 75vh;
+
+	border-radius: 20px;
+}
+ul {
+list-style: none;
+padding: 0;
+}
+
+h2 {
+	color: #007bff;
+}
+
+.tools {
+	/*perimeter line around element*/
+	border: 5px solid #f2f2f2;
+
+	margin: 20px;
+
+	padding: 25px;
+
+	height: 200px;
+
+	width: 70%;  
+
+	color: white;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
