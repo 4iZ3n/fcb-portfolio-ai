@@ -26,6 +26,10 @@ h1, h2 {
 
 	/**/
 	justify-content: center;
+
+	margin-top: 50px;
+
+	scroll-margin-top:5rem;
 }
 
 .jumbotron {
@@ -74,4 +78,13 @@ h2 {
 
 html {
 	scroll-behavior: smooth;
+}
+
+.container-fluid {
+	margin-top: 100px;
+}
+
+.collapse {
+	margin-top: 100 px
+
 }
